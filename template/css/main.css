@@ -1034,3 +1034,15 @@ div.about-info p {
 div.about-us h2 {
     color: black
 }
+
+
+/* Map */
+
+.box {
+    display: inline-block;
+}
+
+.box iframe {
+    pointer-events: none;
+    width: 100%;
+}
