@@ -338,7 +338,7 @@ section {
 
 #about-us {
     background-image: url(../images/about-bg.jpg);
-    padding: 60px 0;
+    padding: 0;
 }
 
 #about-us h2 {
@@ -884,12 +884,11 @@ section {
 }
 
 #google-map {
-    height: 350px;
+    height: 500px;
 }
 
 #contact-us {
     background-image: url(../images/contact-bg.jpg);
-    padding-bottom: 90px;
 }
 
 #contact-us .heading {
@@ -1040,10 +1039,12 @@ div.about-info p {
 
 .box iframe {
     pointer-events: none;
-    width: 100%;
+    width: 900px;
+    height: 350px;
 }
 
-#about-us .container {
+
+/*#about-us .container {
     background: black;
     opacity: 0.6;
 }
@@ -1051,16 +1052,23 @@ div.about-info p {
 #contact-us .container {
     background: black;
     opacity: 0.6;
+}*/
+
+#map .container {
+    width: 100%;
 }
 
 .box1 {
-    margin-top: -15px;
     padding-right: 7.5px;
     padding-left: 0px;
 }
 
 .box2 {
-    margin-top: -15px;
     padding-left: 7.5px;
     padding-right: 0px;
+}
+
+.background-contact {
+    background: black;
+    opacity: 0.6;
 }
