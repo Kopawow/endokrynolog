@@ -343,7 +343,7 @@ section {
 
 #about-us h2 {
     margin-top: 0;
-    color: black;
+    color: white;
 }
 
 #about-us .lead {
@@ -1028,11 +1028,7 @@ div.logo-text {
 }
 
 div.about-info p {
-    color: #028fcc
-}
-
-div.about-us h2 {
-    color: black
+    color: white
 }
 
 
@@ -1045,4 +1041,26 @@ div.about-us h2 {
 .box iframe {
     pointer-events: none;
     width: 100%;
+}
+
+#about-us .container {
+    background: black;
+    opacity: 0.6;
+}
+
+#contact-us .container {
+    background: black;
+    opacity: 0.6;
+}
+
+.box1 {
+    margin-top: -15px;
+    padding-right: 7.5px;
+    padding-left: 0px;
+}
+
+.box2 {
+    margin-top: -15px;
+    padding-left: 7.5px;
+    padding-right: 0px;
 }
